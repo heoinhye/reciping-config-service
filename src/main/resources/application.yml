@@ -5,6 +5,7 @@ spring:
   application:
     name: reciping-config-service
   cloud:
-    server:
-      git:
-        uri: https://github.com/heoinhye/reciping-cloud-config
+    config:
+      server:
+        git:
+          uri: https://github.com/heoinhye/reciping-cloud-config
